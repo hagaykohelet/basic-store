@@ -1,5 +1,5 @@
-.navbar{
-    height:6rem;
+.navbar {
+    height: 6rem;
     margin: 2%;
     border-radius: 12px;
     background-color: white;
@@ -7,15 +7,55 @@
     justify-content: space-between;
 }
 
-.title{
+.title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 2%;
 }
-.title p{
+
+.title p {
     font-size: small;
 }
-.buttons{}
 
-.count{}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2%;
+
+}
+
+.shop {
+    color: white;
+    background-color: black;
+    margin-right: 5%;
+    height: 30%;
+    width: 5em;
+    border-radius: 24px;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin-right: 5%;
+    height: 40%;
+    width: 7em;
+    border-radius: 24px;
+    border: 1px solid grey;
+}
+
+
+
+.count {
+    background-color: rgba(245, 196, 110);
+    height: 70%;
+    width: 30%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
