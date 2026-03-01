@@ -1,0 +1,21 @@
+.navbar{
+    height:6rem;
+    margin: 2%;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+}
+.title p{
+    font-size: small;
+}
+.buttons{}
+
+.count{}
