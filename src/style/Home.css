@@ -6,3 +6,11 @@ main p {
     font-size: small;
     color: rgba(179, 144, 82);
 }
+
+.cards {
+    margin-top: 2%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2%;
+}

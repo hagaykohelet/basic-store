@@ -1,7 +1,9 @@
 import React from 'react'
 import '../style/Nav.css'
 import { useNavigate } from 'react-router-dom'
+import { useCard } from '../store/store'
 function Nav() {
+    const count = useCard((state)=>state.count)
     const navigate = useNavigate()
     function navigateToHomePage(){
         navigate('/')
@@ -18,7 +20,7 @@ function Nav() {
 
             <div className="buttons">
                 <button className='shop' onClick={navigateToHomePage}>Shop</button>
-                <button className='cart' onClick={navigateToCartPage}>Cart <div className="count">0</div></button>
+                <button className='cart' onClick={navigateToCartPage}>Cart <div className="count">{count}</div></button>
             </div>
         </div>
     )
