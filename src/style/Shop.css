@@ -1,0 +1,12 @@
+header {
+    margin-left: 2%;
+}
+
+header{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+header p {
+    color: rgba(179, 144, 82);
+}

@@ -5,9 +5,11 @@ import Card from '../components/Card'
 import { useCard } from '../store/store'
 function Home() {
   const { fetchData, data, addToShop} = useCard()
+
   useEffect(() => {
     fetchData("src/db/products.json")
   }, [])
+
   return (
     <div>
       <Nav />
